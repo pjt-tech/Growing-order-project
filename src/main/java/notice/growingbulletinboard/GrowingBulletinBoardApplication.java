@@ -9,5 +9,4 @@ public class GrowingBulletinBoardApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(GrowingBulletinBoardApplication.class, args);
 	}
-
 }
