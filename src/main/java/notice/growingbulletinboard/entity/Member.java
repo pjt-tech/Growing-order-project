@@ -5,10 +5,9 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import javax.persistence.Embedded;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.List;
 
 @Getter @Setter
 @NoArgsConstructor
@@ -21,6 +20,9 @@ public class Member {
 
     @Embedded
     private Address address;
+
+    @ManyToOne
+    private List<Order> orders = new ArrayList<>();
 
     @Builder
     public Member(Long id, String name, Address address) {
