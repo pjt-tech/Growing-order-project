@@ -1,4 +1,4 @@
-package notice.growingbulletinboard.entity;
+package notice.growingbulletinboard.domain;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

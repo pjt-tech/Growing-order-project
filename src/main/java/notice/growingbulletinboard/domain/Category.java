@@ -1,8 +1,8 @@
-package notice.growingbulletinboard.entity;
+package notice.growingbulletinboard.domain;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import notice.growingbulletinboard.entity.item.Item;
+import notice.growingbulletinboard.domain.item.Item;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

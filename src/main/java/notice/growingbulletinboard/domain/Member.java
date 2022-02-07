@@ -1,4 +1,4 @@
-package notice.growingbulletinboard.entity;
+package notice.growingbulletinboard.domain;
 
 import lombok.Builder;
 import lombok.Getter;
@@ -21,7 +21,7 @@ public class Member {
     @Embedded
     private Address address;
 
-    @ManyToOne
+    @OneToMany(mappedBy = "member")
     private List<Order> orders = new ArrayList<>();
 
     @Builder

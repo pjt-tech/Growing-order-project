@@ -1,7 +1,7 @@
 package notice.growingbulletinboard.repository;
 
-import notice.growingbulletinboard.entity.Address;
-import notice.growingbulletinboard.entity.Member;
+import notice.growingbulletinboard.domain.Address;
+import notice.growingbulletinboard.domain.Member;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

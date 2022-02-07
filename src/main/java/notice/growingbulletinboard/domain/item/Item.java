@@ -1,8 +1,8 @@
-package notice.growingbulletinboard.entity.item;
+package notice.growingbulletinboard.domain.item;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import notice.growingbulletinboard.entity.Category;
+import notice.growingbulletinboard.domain.Category;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -13,7 +13,7 @@ import java.util.List;
 @NoArgsConstructor
 @Getter
 @Entity
-public class Item {
+public abstract class Item {
 
     @Id @GeneratedValue
     private Long id;
