@@ -1,4 +1,5 @@
 package notice.growingbulletinboard.domain;
 
-public class DeliveryStatus {
+public enum DeliveryStatus {
+    COMP
 }

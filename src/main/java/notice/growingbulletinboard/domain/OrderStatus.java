@@ -1,4 +1,6 @@
 package notice.growingbulletinboard.domain;
 
-public class OrderStatus {
+public enum OrderStatus {
+
+    ORDER,CANCEL
 }

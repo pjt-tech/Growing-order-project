@@ -3,9 +3,7 @@ package notice.growingbulletinboard.domain;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @NoArgsConstructor
 @Getter
@@ -13,11 +11,15 @@ import javax.persistence.Id;
 public class Delivery {
 
     @Id@GeneratedValue
+    @Column(name = "delivery_id")
     private Long id;
 
+    @OneToOne(mappedBy = "delivery")
     private Order order;
 
+    @Embedded
     private Address address;
 
+    @Enumerated(EnumType.STRING)
     private DeliveryStatus status;
 }
