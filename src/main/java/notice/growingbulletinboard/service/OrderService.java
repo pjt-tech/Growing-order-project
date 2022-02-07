@@ -1,4 +1,4 @@
 package notice.growingbulletinboard.service;
 
-public class PostsService {
+public class OrderService {
 }
