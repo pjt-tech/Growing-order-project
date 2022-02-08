@@ -21,11 +21,11 @@ public class ItemService {
         return itemRepository.save(item).getId();
     }
 
-    public Item findMember(Long id) {
+    public Item findItem(Long id) {
         return itemRepository.findById(id).get();
     }
 
-    public List<Item> findMembers() {
+    public List<Item> findItems() {
         return itemRepository.findAll();
     }
 
