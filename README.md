@@ -20,5 +20,5 @@
 ### 6. 테스트 케이스 작성
 - 기능에 따른 통합 테스트 진행
 
-### 구현 기능 시연영상
+### ⭐ 구현 기능 시연영상 ⭐
 ![Hnet-image](https://user-images.githubusercontent.com/57753502/153383305-d38214b9-5539-4fb5-b8d9-f654bdc9b0df.gif)
