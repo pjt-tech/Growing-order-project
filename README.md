@@ -4,7 +4,7 @@
 -----------------------------
 ### 게시판 기능 목록
 ### 1. 회원 등록 및 조회
-![Hnet-image](https://user-images.githubusercontent.com/57753502/153380646-6b9f8b46-1e89-46b4-977d-d7cfbc135538.gif)
+![Hnet com-image](https://user-images.githubusercontent.com/57753502/153380985-e667f3a1-6f44-417f-9e8a-a43c7c28691e.gif)
 ### 2. 상품 등록, 조회, 수정
 ![Hnet com-image](https://user-images.githubusercontent.com/57753502/153379502-7d1fe76e-47f4-4cbe-a890-44a4b230d761.gif)
 
