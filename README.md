@@ -4,8 +4,11 @@
 -----------------------------
 ### 게시판 기능 목록
 ### 1. 회원 등록 및 조회
+<img src="https://hnet.com/video-to-gif/viewimage/20220209-21-VWTQnl6cfvzI3fqw-wcwMSI-HNET">
 ### 2. 상품 등록, 조회, 수정
+<img src="https://hnet.com/video-to-gif/viewimage/20220209-21-VWTQnl6cfvzI3fqw-wcwMSI-HNET">
 ### 3. 주문, 취소, 주문 내역 조회
+<img src="https://hnet.com/video-to-gif/viewimage/20220209-21-VWTQnl6cfvzI3fqw-wcwMSI-HNET">
 ### 4. 예외처리
 
 - 회원 등록시 중복된 회원이 존재하는가?
