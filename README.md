@@ -4,14 +4,9 @@
 -----------------------------
 ### 게시판 기능 목록
 ### 1. 회원 등록 및 조회
-![Hnet com-image](https://user-images.githubusercontent.com/57753502/153380985-e667f3a1-6f44-417f-9e8a-a43c7c28691e.gif)
 ### 2. 상품 등록, 조회, 수정
-![Hnet com-image](https://user-images.githubusercontent.com/57753502/153379502-7d1fe76e-47f4-4cbe-a890-44a4b230d761.gif)
-
 ### 3. 주문, 취소, 주문 내역 조회
-<img src="https://hnet.com/video-to-gif/viewimage/20220209-21-VWTQnl6cfvzI3fqw-wcwMSI-HNET">
 ### 4. 예외처리
-
 - 회원 등록시 중복된 회원이 존재하는가?
 - 상품 조회, 수정시 글이 존재하는가?
 - 주문, 취소시 수량이 빠지고 증가하는가?
@@ -23,5 +18,7 @@
 - 상품 주문시 배송 정보를 입력할 수 있다.
 
 ### 6. 테스트 케이스 작성
-
 - 기능에 따른 통합 테스트 진행
+
+### 구현 기능 시연영상
+![Hnet-image](https://user-images.githubusercontent.com/57753502/153382359-618281d4-906c-40c9-b053-e976b7d5ce63.gif)
